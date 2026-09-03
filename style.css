@@ -8,9 +8,46 @@ body {
     background-color: #12151C;
     color: #EDEAE3;
     font-family: 'Inter', sans-serif;
-    max-width: 900px;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    max-width: 1100px;
     margin: 0 auto;
-    padding: 0 2rem;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding: 3rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    border-right: 1px solid #262B36;
+}
+
+.sidebar .brand {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.sidebar a {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.85rem;
+    color: #8B93A3;
+    padding: 0.4rem 0;
+}
+
+.sidebar a:hover {
+    color: #D9A441;
+}
+
+main {
+    padding: 0 3rem;
+    max-width: 700px;
 }
 
 h1, h2, h3 {
