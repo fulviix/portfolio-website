@@ -170,6 +170,15 @@ article p:nth-of-type(2) {
     font-size: 0.9rem;
 }
 
+.method {
+    color: #5FA8A0;
+    font-weight: 500;
+}
+
+.status {
+    color: #D9A441;
+}
+
 @media (max-width: 860px) {
     .layout {
         grid-template-columns: 1fr;
