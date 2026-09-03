@@ -10,6 +10,14 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+dd, a {
+    overflow-wrap: break-word;
+}
+
+.layout, main, .sidebar {
+    min-width: 0;
+}
+
 .layout {
     display: grid;
     grid-template-columns: 220px 1fr;
