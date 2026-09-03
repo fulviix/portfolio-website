@@ -9,98 +9,108 @@
     <title>fulvio.dev</title>
 </head>
 <body>
-    <header>
-        <p>Catania, Sicilia</p>
-        <h1>Fulvio Dipietro</h1>
-        <p>Junior Back-End Developer</p>
-        <p>Costruisco servizi lato server, dalle API al deploy su cloud</p>
-    </header>
+    <div class="layout">
+        <nav class="sidebar">
+            <p class="brand">fulvio@dev</p>
+            <a href="#experience">Esperienza</a>
+            <a href="#education">Formazione</a>
+            <a href="#skills">Competenze</a>
+            <a href="#contact">Contatti</a>
+        </nav>
 
-    <section>
-        <p>GET  /experience  200</p>
-        <h2>Esperienza</h2>
-        <article>
-            <h3>Sviluppatore Back-End</h3>
-            <p>feb 2026 - giu 2026</p>
-            <p>Paradigma - Stage - Catania, Sicilia - Ibrido</p>
-            <p>Sviluppo web back-end e infrastrutture su Amazon Web Services.</p>
-        </article>
-        <article>
-            <h3>Business Development, Market Research & Digital Specialist</h3>
-            <p>set 2026 - presente</p>
-            <p>Heppenstall Europe srl - Italia - Da remoto</p>
-            <p>Ricerca di mercato e supporto</p>
-        </article>
-    </section>
+        <main>
+            <header>
+                <p>Catania, Sicilia</p>
+                <h1>Fulvio Dipietro</h1>
+                <p>Junior Back-End Developer</p>
+                <p>Costruisco servizi lato server, dalle API al deploy su cloud</p>
+            </header>
 
-    <section>
-        <p>GET  /education  200</p>
-        <h2>Formazione</h2>
-        <article>
-            <h3>ITS Steve Jobs Academy</h3>
-            <p>Informatica</p>
-            <p>ott 2024 - ago 2026</p>
-        </article>
-        <article>
-            <h3>Liceo Scientifico</h3>
-            <p>Diploma di maturità, Matematica</p>
-            <p>2018 - 2023</p>
-        </article>
-    </section>
+            <section id="experience">
+                <p>GET /experience 200</p>
+                <h2>Esperienza</h2>
+                <article>
+                    <h3>Sviluppatore Back-End</h3>
+                    <p>feb 2026 - giu 2026</p>
+                    <p>Paradigma - Stage - Catania, Sicilia - Ibrido</p>
+                    <p>Sviluppo web back-end e infrastrutture su Amazon Web Services.</p>
+                </article>
+                <article>
+                    <h3>Business Development, Market Research &amp; Digital Specialist</h3>
+                    <p>set 2026 - presente</p>
+                    <p>Heppenstall Europe srl - Italia - Da remoto</p>
+                    <p>Ricerca di mercato e supporto</p>
+                </article>
+            </section>
 
-    <section>
-        <p>GET  /skills  200</p>
-        <h2>Competenze</h2>
-        <div>
-            <h3>linguaggi</h3>
-            <ul>
-                <li>Typescript</li>
-                <li>Javascript</li>
-                <li>Python</li>
-                <li>GDScript</li>
-                <li>Java</li>
-            </ul>
-        </div>
-        <div>
-            <h3>back-end & api</h3>
-            <ul>
-                <li>Node.js</li>
-                <li>REST API</li>
-                <li>MongoDB</li>
-                <li>DynamoDB</li>
-                <li>MySQL</li>
-            </ul>
-        </div>
-        <div>
-            <h3>cloud & strumenti</h3>
-            <ul>
-                <li>AWS</li>
-                <li>Git</li>
-                <li>Express</li>
-                <li>Jest</li>
-                <li>Serverless</li>
-            </ul>
-        </div>
-    </section>
+            <section id="education">
+                <p>GET /education 200</p>
+                <h2>Formazione</h2>
+                <article>
+                    <h3>ITS Steve Jobs Academy</h3>
+                    <p>Informatica</p>
+                    <p>ott 2024 - ago 2026</p>
+                </article>
+                <article>
+                    <h3>Liceo Scientifico</h3>
+                    <p>Diploma di maturità, Matematica</p>
+                    <p>2018 - 2023</p>
+                </article>
+            </section>
 
-    <section>
-        <p>GET  /contact  200</p>
-        <h2>Contatti</h2>
-        <p>Per proposte lavorative e commissioni</p>
-        <dl>
-            <dt>Email</dt>
-            <dd><a href="mailto:fulviodipietro08@icloud.com">fulviodipietro08@icloud.com</a></dd>
+            <section id="skills">
+                <p>GET /skills 200</p>
+                <h2>Competenze</h2>
+                <div>
+                    <h3>linguaggi</h3>
+                    <ul>
+                        <li>Typescript</li>
+                        <li>Javascript</li>
+                        <li>Python</li>
+                        <li>GDScript</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>back-end &amp; api</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>REST API</li>
+                        <li>MongoDB</li>
+                        <li>DynamoDB</li>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>cloud &amp; strumenti</h3>
+                    <ul>
+                        <li>AWS</li>
+                        <li>Git</li>
+                        <li>Express</li>
+                        <li>Jest</li>
+                        <li>Serverless</li>
+                    </ul>
+                </div>
+            </section>
 
-            <dt>GitHub</dt>
-            <dd><a href="https://github.com/fulviix" target="_blank" rel="noopener">github.com/fulviix</a></dd>
+            <section id="contact">
+                <p>GET /contact 200</p>
+                <h2>Contatti</h2>
+                <p>Per proposte lavorative e commissioni</p>
+                <dl>
+                    <dt>Email</dt>
+                    <dd><a href="mailto:fulviodipietro08@icloud.com">fulviodipietro08@icloud.com</a></dd>
+                    <dt>GitHub</dt>
+                    <dd><a href="https://github.com/fulviix" target="_blank" rel="noopener">github.com/fulviix</a></dd>
+                    <dt>LinkedIn</dt>
+                    <dd><a href="https://www.linkedin.com/in/fulvio-dipietro-a557a038b/" target="_blank" rel="noopener">in/fulvio-dipietro-a557a038b</a></dd>
+                </dl>
+            </section>
 
-            <dt>LinkedIn</dt>
-            <dd><a href="https://www.linkedin.com/in/fulvio-dipietro-a557a038b/" target="_blank" rel="noopener">in/fulvio-dipietro-a557a038b</a></dd>
-    </dl>
-    </section>
-    
-    <footer>
-        <p>Catania, Sicilia - made with love</p>
-    </footer>
+            <footer>
+                <p>Catania, Sicilia - molto libero e poco professionista</p>
+            </footer>
+        </main>
+    </div>
 </body>
 </html>
