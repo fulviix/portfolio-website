@@ -42,11 +42,23 @@ dd, a {
     margin-bottom: 2rem;
 }
 
+.sidebar a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 0.9em;
+    background: #D9A441;
+}
+
 .sidebar a {
     font-family: 'IBM Plex Mono', monospace;
     font-size: 0.85rem;
     color: #8B93A3;
-    padding: 0.4rem 0;
+    padding: 0.4rem 0 0.4rem 0.8rem;
+    position: relative;
 }
 
 .sidebar a:hover {
@@ -87,6 +99,18 @@ h2 {
     font-size: 1.9rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
+    position: relative;
+    padding-left: 1rem;
+}
+
+h2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.15em;
+    width: 3px;
+    height: 1.4em;
+    background: #D9A441;
 }
 
 h3 {
