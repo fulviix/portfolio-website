@@ -60,6 +60,21 @@ h1 {
     line-height: 1.05;
 }
 
+.location {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #8B93A3;
+}
+
+.role {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    color: #D9A441;
+    font-size: 1.3rem;
+    margin-top: 0.3rem;
+}
 h2 {
     font-size: 1.9rem;
     font-weight: 500;
